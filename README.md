@@ -6,26 +6,26 @@ Project notes:
 Technologies used:
 
   Backend:
-  Java 8
-  MariaDB
-  Spring Boot
-  Spring Security
-  Spring Web
-  Spring Data JPA
-  jjwt
+  Java 8,
+  MariaDB,
+  Spring Boot,
+  Spring Security,
+  Spring Web,
+  Spring Data JPA,
+  jjwt,
   Maven
   
   Front-end:
-  React
-  React-router-dom
-  Bootstrap
-  Axios
-  react-validation
+  React,
+  React-router-dom,
+  Bootstrap,
+  Axios,
+  react-validation,
   validator
 
 Tools:
-Eclipse IDE for Back-end
-VS Code for front-end
+Eclipse IDE for Back-end,
+VS Code for front-end,
 Postman for API testing
 
 Using Eclipse created an MVC springboot project. Separately I generated a react project and imported it into the maven project. The attempt to get a simple hello world page to display when running the spring boot project. The challenge is getting the file structure correct. First attempt is to place the react project in src/main/webapp directory. Once in that folder the project had to be cleaned of the standard build generated when using npx create-react-app command. After cleaning all files and trying to display a simple hello world on the main page, I was not able to get the project to show anything when initializing the maven project and going to port 8080.
