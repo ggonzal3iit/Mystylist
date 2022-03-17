@@ -1,0 +1,9 @@
+{
+  "name": "mystylistreact",
+  "version": "1.22.17",
+  "description": "just a package",
+  "main": "index.js",
+  "repository": "https://github.com/ggonzal3iit/Mystylist",
+  "author": "Guillermo Gonzalez",
+  "license": "MIT"
+}
